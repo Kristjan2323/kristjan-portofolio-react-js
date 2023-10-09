@@ -934,7 +934,7 @@ min-width: 300px;
  .skill-container{
    display: flex;
    flex-wrap: wrap; 
-   justify-content: start;
+   justify-content: flex-start;
    gap:40px;
    align-items: self-start;
    align-self: flex-start;
@@ -950,7 +950,7 @@ min-width: 300px;
    min-width: 200px;
    max-width: 300px;
    flex-direction: column;
-   justify-content:start;
+   justify-content:flex-start;
    align-self: end;
    background-color: var(--gb-shade);
    padding: 30px; 
@@ -978,8 +978,8 @@ min-width: 300px;
 
  .img-container{
    display: flex;
-   justify-content: start;
-   align-self: start;
+   justify-content: flex-start;
+   align-self: flex-start;
  }
 
  .skill-details-container h2{
@@ -988,7 +988,7 @@ min-width: 300px;
 
  .c-image{
    display: flex;
-   justify-content: start;
+   justify-content: flex-start;
  }
 
  .c-tittle h2{
@@ -1000,7 +1000,7 @@ min-width: 300px;
 
  .c-description{
    display: flex;
-   justify-content: start;
+   justify-content: flex-start;
    margin-top: 10px;
  }
 
