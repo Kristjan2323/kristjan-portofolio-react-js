@@ -1,0 +1,37 @@
+
+
+{
+    "myPortofolio": 
+    [
+        {
+            "id" : "1",
+            "title" : "Task Reminder",
+            "description" : "Task Reminder is a web application designed to help users manage their tasks, efficiently. It provides a user-friendly interface to add, edit, and track tasks, ensuring you never miss an important deadline.",
+            "image" : "./images/task-reminders-port.webp"
+        },
+        {
+            "id" : "2",
+            "title" :"Tournament",
+            "description" : "The Tournament App is a dynamic web app for creating and managing sports and gaming tournaments. With the ability to create teams, the app generates random groups for competitions. Teams compete, and the winners progress to the next round, culminating in the crowning of a champion. It's the ultimate tool for organizing and experiencing the thrill of tournaments.",
+            "image" : "./images/tournament-app-port.jpg"
+        },
+        {
+            "id" : "3",
+            "title" : "Hospital Management",
+            "description" : "The Hospital Management System streamlines healthcare operations, including patient records and appointments.",
+            "image" : "./images/hospital-management-port.png"
+        },
+        {
+            "id" : "4",
+            "title" : "E-Commerce",
+            "description" : "E-Commerce Platform is an online marketplace where users can browse and purchase a wide range of products. It provides a shopping experience with features like product categorization, search, and secure payment processing.",
+            "image" : "./images/ecommerce-port2.png"
+        },
+        {
+            "id" : "5",
+            "title" : "Twitter Clone",
+            "description" : "The Twitter Clone is a social media application that replicates the interface of the popular platform. ",
+            "image" : "./images/twitter-clone-port.webp"
+        }
+    ]
+}

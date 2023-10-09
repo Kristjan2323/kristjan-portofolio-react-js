@@ -1,0 +1,83 @@
+{
+    "skills": [
+      {
+        "frontend": [
+          {
+            "id": "1",
+            "src": "images/html-skill.png",
+            "title": "HTML",
+            "description": "With a strong foundation in HTML, I've crafted engaging web pages, ensuring clean and structured content for exceptional user experiences."
+          },
+          {
+            "id": "2",
+            "src": "images/css-skill.png",
+            "title": "CSS",
+            "description": "My expertise in CSS has allowed me to bring style and visual appeal to websites, creating stunning and responsive layouts."
+          },
+          {
+            "id": "3",
+            "src": "images/javascript-skill.webp",
+            "title": "JavaScript",
+            "description": "As a JavaScript enthusiast, I've added dynamic features and interactivity to websites, making them come alive with user-friendly functionalities."
+          },
+          {
+            "id": "4",
+            "src": "images/React-JS-skill.png",
+            "title": "React-JS",
+            "description": "Using React-JS, I've developed cutting-edge web applications, delivering seamless user interfaces and efficient data management."
+          }
+        ]
+      },
+      {
+        "backend": [
+          {
+            "id": "5",
+            "src": "./images/c-.net_.png",
+            "title": "C# + .Net",
+            "description": "My proficiency in C# with .NET has empowered me to build robust and secure web applications, catering to diverse business needs."
+          },
+          {
+            "id": "6",
+            "src": "./images/GitHub-Mark-skill.png",
+            "title": "GitHub",
+            "description": "I've utilized GitHub for version control and collaboration, ensuring efficient code management and seamless teamwork."
+          },
+          {
+            "id": "7",
+            "src": "./images/api-skill.png",
+            "title": "API",
+            "description": "Through API integration, I've enabled seamless data exchange between applications, optimizing user experiences and enhancing functionality."
+          },
+          {
+            "id": "8",
+            "src": "./images/mongo-db-skill.png",
+            "title": "MongoDB",
+            "description": "My expertise in MongoDB has facilitated the handling of vast unstructured data, contributing to scalable and high-performance applications."
+          },
+          {
+            "id": "9",
+            "src": "./images/sql-skill.png",
+            "title": "SQL",
+            "description": "I've leveraged SQL for managing and querying relational databases, ensuring efficient data retrieval and manipulation."
+          },
+          {
+            "id": "10",
+            "src": "images/mySql-skull.png",
+            "title": "MySQL",
+            "description": "With MySQL, I've developed fast and reliable database systems, supporting data-driven applications with confidence."
+          }
+        ]
+      },
+      {
+        "webflow": [
+          {
+            "id": "9",
+            "src": "./images/webflow.png",
+            "title": "Webflow Development",
+            "description": "My proficiency in Webflow has enabled me to design and develop responsive websites effortlessly, delivering visually captivating online experiences."
+          }
+        ]
+      }
+    ]
+  }
+  

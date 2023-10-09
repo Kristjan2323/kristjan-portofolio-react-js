@@ -1,0 +1,1345 @@
+/*Media screen responsive */
+@media screen and (max-width:1200px){
+   
+    .kristjan-logo{
+      width: 180px;
+    }
+     .btn-outline-primary{
+      width: 100px;
+      padding: 8px;
+      font-size: 14px;
+      margin-right: -35px;
+     }
+    .navbar--items > ul {
+      
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+      gap: 32.667px;
+      text-decoration: none;
+    }
+    .navbar--items ul > li > a {
+      text-decoration: none;
+    }
+    /* Navbar Content */
+    .navbar--content {
+      color: var(--darkblue);
+      font-size: 15.5px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      cursor: pointer;
+    }
+    .navbar--active-content {
+      color: var(--primary);
+    }
+    
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 85.333px;
+        background: var(--white);
+        box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+       opacity: 0.97;
+      }
+      .navbar--items > ul {
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 31.667px;
+        text-decoration: none;
+      }
+      .navbar--items ul > li > a {
+        text-decoration: none;
+      }
+
+ .hero-section-container{
+  padding: 30px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gb-shade);
+  gap :30px;
+
+}
+
+.hero-section-left{
+  min-width: 300px;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  
+}
+
+.hero-section-intro{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 60px;
+}
+
+.hero-section-Job{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.hero-section-desc{
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 22px;
+}
+
+.herosection-right{
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1 0 0 ;
+max-width: 1000px;
+min-width: 450px;
+padding: 10px;
+}
+
+.btn-get-InTouch{
+  width: 150px;
+  padding: 12px;
+}
+
+
+
+ .footer-logo-pages{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+   padding-bottom: 80px;
+   border-bottom: 2px solid rgb(104, 103, 103);
+   
+ }
+
+ .footer-pages-cpntainer{
+   display: flex;
+   justify-content: space-between;
+   width: 310px;
+   align-items: center;
+   
+ }
+
+
+
+ .footer-pages-cpntainer p{
+   cursor: pointer;
+   font-size: 10px;
+ }
+
+ .img-logo-Kristjan{
+   width: 200px;
+   margin-left: 20px;
+ }
+
+ .social-container {
+   display: flex;
+ }
+ 
+ a.social {
+   
+   transition: transform 250ms;
+   display: inline-block;
+  
+ }
+ 
+ a.social:hover {
+   transform: translateY(-2px);
+ }
+ 
+ a.youtube {
+   color: #4968ad;   
+   font-size: 21px;
+ }
+ 
+ a.facebook {
+   color: #4968ad;
+   font-size: 21px;
+ }
+ 
+ a.twitter {
+   color: #49a1eb;
+   font-size: 21px;
+ }
+ 
+ a.instagram {
+   color: rgb(243, 30, 101);
+   font-size: 21px;
+ }
+
+ .footer-bootom-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .footer-agree-service{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 300px;
+ }
+
+ .footer-agree-service p{
+   font-size: 12px;
+   color: grey;
+ }
+
+ .who-created p{
+   font-size: 12px;
+   color: grey;
+ }
+
+ .resume-container{
+  padding: 40px;
+  align-items: center;
+
+}
+.btn-download-cv{
+  width: 140px;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.btn-preview-doc{
+  width: 140px;
+  font-size: 15px;
+  padding: 10px;
+}
+.btn-preview-doc:hover{
+
+  padding: 10px;
+}
+  }
+
+  @media screen and (max-width:920px){
+    
+    .btn-outline-primary {
+      display: none;
+    }
+
+    .kristjan-logo{
+      margin-top: 18px;
+      width: 180px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 85.333px;
+      padding-bottom: 14px;
+      background: var(--white);
+      box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+     opacity: 0.97;
+    }
+    .nav__hamburger {
+      display: flex;
+      z-index: 200;
+    }
+    .navbar--items {
+      display: flex;
+    }
+    .navbar--items {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255);
+      top: -20rem;
+      left: 0;
+      width: 100%;
+      transition: all ease-in-out 0.4s;
+    }
+    .navbar--items ul {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 3rem 0 0.6rem;
+      z-index: -100;
+    }
+    .navbar--items ul li {
+      text-align: center;
+    }
+    .navbar--items ul li a {
+      padding: 0.5rem;
+    }
+    .navbar--items {
+      z-index: -1000;
+    }
+    .navbar--items.active {
+      top: 30px;
+    }
+    .nav__hamburger.active :nth-child(1) {
+      transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+    }
+  
+    .nav__hamburger.active :nth-child(2) {
+      opacity: 0;
+    }
+  
+    .nav__hamburger.active :nth-child(3) {
+      transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+    }
+
+   
+ .hero-section-container{
+  padding: 30px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gb-shade);
+  gap :20px;
+  padding-top: 50px;
+}
+
+.hero-section-left{
+  min-width: 300px;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  
+}
+
+.hero-section-intro{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 60px;
+}
+
+.hero-section-Job{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.hero-section-desc{
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 22px;
+}
+
+.herosection-right{
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1 0 0 ;
+max-width: 100%;
+min-width: 450px;
+padding: 10px;
+}
+
+.herosection-right > img{
+  min-width: 420px;
+  width: 80%;
+ }
+
+.hero-section-left button{
+
+ padding: 14px;
+ width: 150px;
+}
+
+.hero-section-left button:hover{
+
+  padding: 13px;
+  width: 150px;
+ 
+ }
+
+ .aboutMe-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 85px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.aboutMe-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1 0 0;
+  max-width: 100%;
+  min-width:350px ;
+  padding: 5px;
+}
+
+.aboutMe-image-container img{
+  min-width: 320px;
+  max-width: 80%;
+}
+
+.aboutMe-description-container{
+  flex: 1 0 0;
+  max-width: 600px;
+  min-width: 320px;
+  font-size: 17px;
+
+}
+
+.aboutMe-description-container p{
+  margin-top: 15px;
+  line-height: 31.333px;
+}
+
+.git-btn{
+  padding: 14px;
+  width: 140px;
+
+}
+
+.git-btn:hover{
+
+  background-color: var(--white);
+  color: var(--github);
+  transition: border 0.3s, background-color 0.3s;
+}
+
+.btn-preview-doc{
+  padding: 14px;
+  width: 140px;
+
+}
+
+.btn-preview-doc:hover{
+  padding: 14px;
+ 
+  background-color: var(--white);
+  color: var(--github);
+  transition: border 0.3s, background-color 0.3s;
+}
+
+
+.footer{
+  padding: 40px;
+  margin-top: 80px;
+  background-color: var(--gb-shade);
+ }
+
+ .footer-logo-pages{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+   padding-bottom: 50px;
+   border-bottom: 2px solid rgb(104, 103, 103);
+   
+ }
+
+ .footer-pages-cpntainer{
+   display: flex;
+   justify-content: space-between;
+   width: 230px;
+   align-items: center;
+ 
+ }
+
+ .navbar--content{
+  font-size: 14px;
+}
+
+ .footer-pages-cpntainer p{
+   cursor: pointer;
+   font-size: 10px;
+ }
+
+ .img-logo-Kristjan{
+   width: 200px;
+   margin-left: 20px;
+ }
+
+ .social-container {
+   display: flex;
+ }
+ 
+ a.social {
+   
+   transition: transform 250ms;
+   display: flex;
+  
+ }
+ 
+ a.social:hover {
+   transform: translateY(-2px);
+ }
+ 
+ a.youtube {
+   color: #4968ad;   
+   font-size: 20px;
+ }
+ 
+ a.facebook {
+   color: #4968ad;
+   font-size: 20px;
+ }
+ 
+ a.twitter {
+   color: #49a1eb;
+   font-size: 20px;
+ }
+ 
+ a.instagram {
+   color: rgb(243, 30, 101);
+   font-size: 20px;
+ }
+
+ .btn-preview-doc:hover{
+ 
+  background-color: var(--white);
+  color: var(--github);
+  transition: border 0.1s, background-color 0.1s;
+}
+
+ .footer-bootom-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .footer-agree-service{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 300px;
+ }
+
+ .footer-agree-service p{
+   font-size: 12px;
+   color: grey;
+ }
+
+ .who-created p{
+   font-size: 12px;
+   color: grey;
+ }
+
+ .btn-download-cv{
+  width: 120px;
+  font-size: 14px;
+  padding: 6px;
+}
+
+.btn-preview-doc{
+  width: 120px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.btn-preview-doc:hover{
+  padding: 10px;
+}
+
+  }
+
+
+
+
+ @media screen and (max-width:768px){ 
+    
+
+
+ .footer-top-cotainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+
+ .footer-logo-pages{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap:30px;
+   width: 100%;
+   align-items: center;
+   margin-bottom: 40px;
+   padding-bottom: 50px;
+   border-bottom: 2px solid rgb(104, 103, 103);
+ }
+
+ .footer-pages-cpntainer{
+   display: flex;
+   justify-content: space-between;
+   width: 330px;
+   align-items: center;
+ 
+ }
+
+ .kristjan-logo{
+  margin-top: 15px;
+  width: 180px;
+}
+
+ .navbar--content{
+  font-size: 14px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 85.333px;
+  padding-bottom:15px ;
+  background: var(--white);
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ opacity: 0.97;
+}
+
+ .footer-pages-cpntainer p{
+   cursor: pointer;
+   font-size: 10px;
+ }
+
+ .img-logo-Kristjan{
+   width: 200px;
+   margin-left: 20px;
+ }
+
+ 
+.contact-section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  padding: 0px;
+}
+
+.contact-top-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  flex: 1 0 0;
+  min-width: 300px;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-info-container{
+  display: flex;
+  flex-direction: column;  
+  justify-self: center;
+  align-items: center;
+  margin-bottom: 78px;
+  width: 90%;
+
+}
+
+
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  min-width: 300px;
+  max-width: 100%; 
+
+}
+
+.contact--input {
+ min-width: 260px;
+ max-width: 70%;
+ padding: 15px;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.contact--label{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-left: px;
+  gap: 10.6px;
+  flex: 1 0 0;
+  width: 100%;
+  outline: none;
+}
+
+.contact--label:focus{
+  outline: none;
+}
+
+.choose-topic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  min-width: 320px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.option-contact{
+  width: 90%;
+  outline: none;
+}
+
+.message{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 30px;
+ min-height: 60px;
+}
+
+.message-input{
+ width:300px;
+  outline: none;
+}
+
+.text-md2{
+  margin-bottom: 10px;
+}
+
+.contact--input{
+  padding: 13px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+}
+
+ .footer-bootom-container{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+ }
+
+ .footer-agree-service{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: space-between;
+   align-items: center;
+   width: 300px;
+ }
+
+ .footer-agree-service p{
+   font-size: 12px;
+   color: grey;
+ }
+
+ .who-created p{
+   font-size: 12px;
+   color: grey;
+ }
+  }
+
+  @media screen and (max-width:540px){ 
+    
+   
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 85.333px;
+        background: var(--white);
+        box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+       opacity: 0.97;
+       padding-bottom: 15px;
+      }
+
+    .nav-active-2comp{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+      .kristjan-logo{
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: -80px;
+      }
+       .btn-outline-primary{
+        width: 100px;
+        padding: 8px;
+        font-size: 14px;
+        margin-right: -35px;
+       }
+      .navbar--items > ul {
+        
+        list-style: none;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 32.667px;
+        text-decoration: none;
+      }
+      .navbar--items ul > li > a {
+        text-decoration: none;
+      }
+      /* Navbar Content */
+      .navbar--content {
+        color: var(--darkblue);
+        font-size: 14.5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        cursor: pointer;
+      }
+      .navbar--active-content {
+        color: var(--primary);
+      }
+      
+
+ .hero-section-container{
+  padding: 0px;
+ margin-top: 70px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gb-shade);
+  gap :20px;
+
+}
+
+.hero-section-left{
+  min-width: 300px;
+ 
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+}
+
+.hero-section-intro{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-height: 60px;
+}
+
+.hero-section-Job{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 26px;
+}
+
+.hero-section-desc{
+  font-size: 19px;
+  line-height: 30px;
+  margin-bottom: 22px;
+}
+
+.herosection-right{
+max-width: 80%;
+min-width: 300px;
+
+}
+
+.herosection-right > img{
+  min-width: 300px;
+ max-width: 100%;
+ }
+
+
+ .aboutMe-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.aboutMe-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1 0 0;
+  max-width: 100%;
+  min-width:300px ;
+  padding: 0px;
+}
+
+.aboutMe-image-container img{
+  min-width: 300px;
+  max-width: 80%;
+}
+
+.aboutMe-description-container{
+  flex: 1 0 0;
+  max-width: 600px;
+  min-width: 280px;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.aboutMe-description-container p{
+  margin-top: 15px;
+  line-height: 28.333px;
+}
+
+
+.btn-get-InTouch{
+  width: 150px;
+  padding: 12px;
+}
+
+.skill-section-container{
+  padding: 40px;
+ }
+
+ .skill-container{
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: start;
+   gap:40px;
+   align-items: self-start;
+   align-self: flex-start;
+ }
+
+ .skill-details-container img{
+   width: 60px;
+ }
+
+ .skill-details-container{
+   display: flex;
+   flex: 1 0 0; 
+   min-width: 200px;
+   max-width: 300px;
+   flex-direction: column;
+   justify-content:start;
+   align-self: end;
+   background-color: var(--gb-shade);
+   padding: 30px; 
+   border-radius: 10px;
+ }
+
+ .skill-details-container:hover{
+   border-bottom: 4px solid var(--primary);
+   margin-bottom: -4px; 
+   transition: border 0.3s, background-color 0.3s;
+ }
+
+ .skill-section-container h1{
+   font-size: 24px;
+   font-weight: 700;
+   font-family:  "Roboto", sans-serif;
+   margin-bottom: 50px;
+
+ }
+
+ .skill-section-container h2{
+  
+   margin-bottom: 40px;
+ }
+
+ .img-container{
+   display: flex;
+   justify-content: start;
+   align-self: start;
+ }
+
+ .skill-details-container h2{
+   margin-top: 35px;
+ }
+
+ .c-image{
+   display: flex;
+   justify-content: start;
+ }
+
+ .c-tittle h2{
+    font-size: 20px;
+    line-height: 1px;
+    line-break: 22px;
+    font-family:  "Roboto", sans-serif;
+ }
+
+ .c-description{
+   display: flex;
+   justify-content: start;
+   margin-top: 10px;
+ }
+
+ .c-description p {
+   display: flex;
+   font-size: 15px;
+   color: rgb(71, 70, 70);
+   line-height: 19.5px;
+ }
+
+ .skill-image{
+   width: 60px;
+   height: 50px;
+ }
+
+ .myPortofolio-container{
+  padding: 20px;
+}
+
+.myPortofolio-top-section{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+.myPortofolio-top-section h2{
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0px;
+  font-weight: 700;
+}
+
+.git-btn{
+  padding: 15px;
+  width: 150px;
+  background-color: var(--github);
+  color: var(--whitte);
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.git-btn:hover{
+  background-color: var(--white);
+  color: var(--github);
+  transition: border 0.3s, background-color 0.3s;
+}
+
+.btn-preview-doc{
+  padding: 15px;
+  width: 160px;
+  background-color: var(--github);
+  color: var(--whitte);
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-preview-doc:hover{
+  background-color: var(--white);
+  color: var(--github);
+  transition: border 0.3s, background-color 0.3s;
+}
+.top-container-data{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+
+}
+
+.portofolio-data-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  width: fit-content; 
+  min-width: 300px;
+  max-width: 650px;
+  margin-left: -10px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.image-portofolio{
+  border-radius: 10px;
+  border: none;
+  height: 240px;
+  width: 100%;
+}
+
+.portofolio-details-container{
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.portofolio-details-container p{
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color:rgb(69, 67, 67);
+
+  
+}
+
+.portofolio-details-container button{
+  border: none;
+  background-color: transparent;;
+  margin-top: 30px;
+  
+  padding-bottom: 10px;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+
+.portofolio-details-container button:hover{
+  transition: border 0.3s, background-color 0.3s;
+  border-bottom: 1px solid var(--primary);
+  margin-bottom: -1px; 
+}
+
+
+
+.contact-section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  padding: 0px;
+ 
+}
+
+.contact-top-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  flex: 1 0 0;
+  min-width: 300px;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-info-container{
+  display: flex;
+  flex-direction: column;  
+  justify-self: center;
+  align-items: center;
+  margin-bottom: 78px;
+  width: 90%;
+
+}
+
+
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  flex: 1 0 0;
+  min-width: 300px;
+  max-width: 800px;
+ margin-left: 20px;
+ 
+
+}
+
+.contact--input {
+  width: 220px;
+ 
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.contact--label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10.6px;
+  flex: 1 0 0;
+  width: 100%;
+  outline: none;
+}
+
+.contact--label:focus{
+  outline: none;
+}
+
+.choose-topic{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 100%;
+  min-width: 280px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.option-contact{
+  width: 90%;
+  outline: none;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+ margin-bottom: 30px;
+ min-height: 60px;
+}
+
+.message-input{
+  max-width: 80%;
+  min-width: 250px;
+  outline: none;
+}
+
+.text-md2{
+  margin-bottom: 10px;
+}
+
+.contact--input{
+  padding: 12px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+}
+
+
+.btn-contact-submit{
+  border:none;
+  background-color: var(--primary);
+  border-radius: 5px;
+  color: var(--whitte);
+  width: 120px;
+  padding: 12px;
+  height: 40px;
+  border: 1px solid var(--primary);
+}
+
+.btn-contact-submit:hover{
+  background-color: var(--whitte);
+    color: var(--primary);
+    transition: border 0.3s, background-color 0.3s;
+}
+
+
+ .footer-logo-pages{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
+   padding-bottom: 80px;
+   border-bottom: 2px solid rgb(104, 103, 103);
+   
+ }
+
+ .footer-pages-cpntainer{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+   
+ }
+
+
+
+ .footer-pages-cpntainer p{
+   cursor: pointer;
+   font-size: 10px;
+ }
+
+ .img-logo-Kristjan{
+   width: 200px;
+   margin-left: 20px;
+ }
+
+ .social-container {
+   display: flex;
+ }
+ 
+
+ .footer-bootom-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+ }
+
+ .footer-agree-service{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+ 
+ }
+
+ .footer-agree-service p{
+   font-size: 12px;
+   color: grey;
+ }
+
+ .who-created p{
+   font-size: 12px;
+   color: grey;
+ }
+
+
+ .resume-container{
+  padding: 40px;
+  align-items: center;
+
+}
+
+.resume-btn-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn-download-cv{
+  width: 140px;
+  font-size: 15px;
+  padding: 8px;
+}
+
+
+  }
+
+ 
